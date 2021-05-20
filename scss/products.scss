@@ -1,0 +1,38 @@
+.products {
+    background: #fff;
+    &__inner {
+        margin: 0 auto;
+        display: flex;
+        max-width: 1280px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        padding-bottom: 90px;
+    }
+    &__iphone {
+        display: flex;
+        width: 48.5%;
+        margin-top: -200px;
+    }
+    &__airpods {
+        display: flex;
+        width: 48.5%;
+        margin-top: -200px;
+    }
+    &__imac {
+        display: flex;
+        width: 100%;
+    }
+    &__iphoneX {
+        display: flex;
+        width: 100%;
+    }
+    &__iphone-link,
+    &__airpods-link,
+    &__imac-link,
+    &__iphoneX-link {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
